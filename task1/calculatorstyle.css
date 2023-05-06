@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;550;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather';
+    outline: none;
+}
+
+body{
+    background: #FE7785;
+}
+
+h2{
+    font-size: 2.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    color: whitesmoke;
+}
+
+.underline{
+    width: 12.5%;
+	margin-left: 42rem;
+	height: 3px;
+	margin-bottom: 40px;
+	background-color: whitesmoke;
+	border-radius: 5rem;
+}
+
+.container{
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background: yellowgreen;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px yellowgreen,
+                        5px 5px 12px rgba(0, 0, 0, 0.16);
+    display: grid;
+    grid-template-columns: repeat(5, 68px);
+}
+
+input{
+    grid-column: span 5;
+    height: 70px;
+    width: 340px;
+    background: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #fff,
+                inset 5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 30px;
+    color: rgb(70, 70, 70);
+    font-size: 45px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+button{
+    height: 48px;
+    width: 48px;
+    color: #000;
+    background: #FE7785;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.16),
+                5px 5px 12px rgba(0, 0, 0, 0.16);
+    border: none;
+    border-radius: 50%;
+    margin: 8px;
+    font-size: 18px;
+}
+
+#equal{
+    width: 115px;
+    height: 50px;
+}
+
+.footer {
+    background-color: #727272;
+    color: whitesmoke;
+    padding: 20px;
+    font-family: 'Raleway';
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.footer:hover {
+    color: #FE7785;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
