@@ -48,16 +48,6 @@ body {
     margin-left: 4rem;
 }
 
-/* img{
-    margin-top: 2rem;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
-    left: 43%;
-    margin-bottom: 10px;
-} */
-
 .img, .img2 {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -127,7 +117,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 2rem;
-    /* position: fixed; */
     bottom: 0;
     width: 100%;
     transition: 0.3s ease;
